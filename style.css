@@ -1,0 +1,58 @@
+/* *,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ */
+
+.page-header {
+  background-color: #f72210;
+  font-family: "Roboto Condensed", sans-serif;
+  max-width: 1310px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.header-left {
+  display: none;
+}
+
+.date {
+  color: white;
+}
+
+.logo {
+  fill: white;
+  width: 132px;
+}
+
+.header-right {
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+
+.header-right i {
+  color: white;
+  opacity: 0.5;
+  font-size: 1.6rem;
+  padding-left: 15px;
+}
+
+#signin {
+  color: white;
+}
+
+#subscribe {
+  background-color: white;
+  color: #f72210;
+  font-weight: 900;
+  padding: 1px 10px;
+}
+
+#subscribe i {
+  background-color: white;
+  color: #f72210;
+  font-size: 15px;
+}

@@ -3,14 +3,13 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
     integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
-
+  <link rel="stylesheet" type="text/css" href="style.css">
   <title>My Project</title>
 </head>
 
@@ -42,43 +41,43 @@
     </div>
   </header>
 
-  <div class="main container">
+  <div class="main container container-fluid mt-3">
     <div class="row">
-      <div class="col">
+      <div class="col-lg-6 order-md-1">
 
         <!--Top Story-->
-        <section class="top-story">
+        <section class="top-story mb-3 col-md-12 order-1">
           <h2 class="box-title">TOP STORY</h2>
           <div class="card">
             <img class="card-img-top"
               src="https://d.newsweek.com/en/full/1568234/dem-debate-nevada.jpg?w=591&h=364&f=920931f7586dd5d760175ed568d49331"
               alt="president donald trump on judicial confirmations">
 
-            <ul class="top-story-list">
-              <li>
-                <h4 class="img-subtitle">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item pl-0">
+                <h4 class="card-title pt-3">
                   Who Won the Ninth Democratic Debate in Nevada?
                 </h4>
                 <p class="card-text">If there's one thing we've learned tonight, Elizabeth Warren is one fiery
                   progressive
                   you cannot simply erase.</p>
               </li>
-              <li>
+              <li class="list-group-item pl-0">
                 <h4 class="img-subtitle">
                   When Is the Next Democratic Debate?
                 </h4>
               </li>
-              <li>
+              <li class="list-group-item pl-0">
                 <h4 class="img-subtitle">
                   Biden's Closing Remarks in Dem Debate Disrupted by Immigration Protesters
                 </h4>
               </li>
-              <li>
+              <li class="list-group-item pl-0">
                 <h4 class="img-subtitle">
                   Warren Presses Bloomberg to Release 'Harassed' Women from NDAs at Debate
                 </h4>
               </li>
-              <li>
+              <li class="list-group-item pl-0">
                 <h4 class="img-subtitle">
                   Bloomberg Calls Stop-and-Frisk 'Embarrassing,' Says it 'Got Out of Control'
                 </h4>
@@ -87,7 +86,7 @@
           </div>
         </section>
         <!--More Stories-->
-        <section class="more-stories">
+        <section class="more-stories col-md-12  order-3">
           <h2 class="box-title">MORE STORIES</h2>
           <div class="card">
             <div class="row">
@@ -320,7 +319,7 @@
 
         <!--Culture & Travel-->
 
-        <section class="culture-travel">
+        <section class="culture-travel col-md-12 order-2">
           <h2 class="box-title">CULTURE & TRAVEL</h2>
           <div class="row">
 
@@ -394,7 +393,7 @@
       </div>
       <!--closes first big col-->
 
-      <div class="col">
+      <div class="col-lg-3 order-md-0">
         <section class="featured-stories">
           <h2 class="box-title">FEATURED STORIES</h2>
 
@@ -469,12 +468,12 @@
       </div>
       <!--closes second big col-->
 
-      <div class="col">
+      <div class="col-lg-3 order-md-2">
         <section class="opinions">
           <h2 class="box-title">OPINION</h2>
 
 
-          <div class="card">
+          <div class="card border-bottom">
             <div class="row">
               <div class="col-4">
                 <img
@@ -482,12 +481,14 @@
                   alt="" class="card-img">
               </div>
               <div class="col-8">
-                <a href="" class="card-title">
-                  My Colleagues' Case Is an Acid Test for Turkey's Justice System
-                </a>
-                <p class="card-text">
-                  BY STEFAN SIMANOWITZ
-                </p>
+                <div class="card-body p-0">
+                  <a href="#" class="card-title mod-text">
+                    My Colleagues' Case Is an Acid Test for Turkey's Justice System
+                  </a>
+                  <p class="card-text">
+                    BY STEFAN SIMANOWITZ
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -1335,8 +1336,7 @@
       <div class="row">
         <div class="card col-4">
           <div class="card-top">
-            <img
-              src="https://d.newsweek.com/en/full/923435/rtx17f5g.jpg?w=397&h=265&f=ad94b77517da92dd0f37d4a9abb5971a"
+            <img src="https://d.newsweek.com/en/full/923435/rtx17f5g.jpg?w=397&h=265&f=ad94b77517da92dd0f37d4a9abb5971a"
               alt="" class="card-img top">
           </div>
           <div class="card-info">
@@ -1498,6 +1498,135 @@
         </div>
       </div>
     </section>
+
+    <div class="bg-white pt-2 pb-2 mt-2">
+      <div class="row">
+        <section class="col-sm-12 col-md-12 col-lg-8">
+          <h6>SUBSCRIBE</h6>
+          <div class="d-flex row pl-4 align-items-center bg-light ml-0 mr-0 pt-4 pb-4 ">
+            <div class="col-3">
+              <img
+                src="https://d.newsweek.com/en/full/1564924/february-14-2020-cover.jpg?w=170&amp;q=95&amp;f=c1d5601167747525a4d15e56749350ec"
+                alt="book-img" class="newsweek-div-new">
+            </div>
+            <div class="col ml-2">
+              <h5>
+                In-depth Stories You Don't See Elsewhere About Topics You Want to Read!
+              </h5>
+              <p>
+                All Access + Weekly Delivery. <br>
+                Choose A Membership That's Perfect for You!
+              </p>
+              <button class="p-2">SUBSCRIBE</button>
+            </div>
+          </div>
+        </section>
+        <section class="col-sm-12 col-md-12 col-lg-4">
+          <h6>NEWSLETTER</h6>
+          <div class="d-flex row bg-light ml-0 mr-0 ">
+            <div class="col-12 p-0 col-sm-12 col-md-5 col-lg-5">
+              <img class="newsweek-div-new nmag-img"
+                src="https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&amp;h=265&amp;q=90&amp;f=742bce9a6f72dd8f19ba2e7fd5db06e5"
+                alt="img">
+            </div>
+            <div class="col-12 col-sm-12 col-md-7 col-lg-7 pt-md-5 text-center text-md-left">
+              <h5>
+                The Starting 5
+              </h5>
+              <p>
+                Take back your inbox. Sign up for our newsletter and start making sense of the world around you.
+              </p>
+              <button class="p-2">SIGN UP</button>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+
+
+    <footer class="border-0 bg-white mt-5">
+      <div
+        class="row d-flex border-bottom border-top align-items-start align-items-md-center justify-content-md-between mb-2 mr-2 mt-2 pb-2 logo-icons-footer">
+        <div class="p-2 d-flex row align-items-md-center logo-text">
+          <img src="http://newsroom.mattressfirm.com/wp-content/uploads/2018/01/Newsweek-Logo-1000x.jpg?x91843"
+            alt="footer-logo" class="align-self-end img-wf">
+          <p class=" newsweek-pad mb-0">© 2020 Newsweek</p>
+        </div>
+        <div>
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-tumblr"></i>
+          <i class="fab fa-linkedin-in"></i>
+        </div>
+      </div>
+      <div class="row">
+        <div class="d-flex">
+          <p class="m-2 pl-2">Editions:</p>
+          <ul class="nav d-flex justify-content-start">
+            <li class="nav-item">
+              <a class="nav-link text-reset pl-2" href="#">U.S. Edition</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-reset pl-0" href="#">日本</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-reset pl-0" href="#">Pakistan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-reset pl-0" href="#">Polska</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-reset pl-0" href="#">România</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul class="nav d-flex justify-content-start">
+            <li class="nav-item">
+              <a class="nav-link text-reset ml-2 pl-2" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-reset pl-0" href="#">Corrections</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-reset pl-0" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-reset pl-0" href="#">Editorial Guidelines</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-reset pl-0" href="#">Advertise</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-reset pl-0" href="#">Copyright</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-reset pl-0" href="#">Terms &amp; Conditions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-reset pl-0" href="#">Privacy Policy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-reset pl-0" href="#">Cookie Policy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-reset pl-0" href="#">Terms of Sale</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-reset pl-0" href="#">Archive</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-reset pl-0" href="#">Announcements</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-reset pl-0" href="#">Consent preferences</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
 
 
   </div>

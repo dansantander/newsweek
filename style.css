@@ -301,8 +301,30 @@ header {
   line-height: 2rem;
 }
 
-.subs-news h4 {
+.subs-titles {
   color: #f72210;
+}
+
+@media (max-width: 767px) {
+  .img-container {
+    width: auto;
+    margin: 0 auto;
+  }
+
+  .news-mag-img {
+    height: 132px;
+  }
+
+  .logo-icons-footer,
+  .logo-text {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .newsweek-pad {
+    padding-left: 10px;
+  }
 }
 
 /* FOOTER */

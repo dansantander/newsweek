@@ -107,6 +107,13 @@ header {
   }
 }
 
+@media (min-width: 1310px) {
+  .all-items {
+    width: 1310px;
+    margin: 0 auto;
+  }
+}
+
 /* NAVBAR */
 
 .navbar p {
